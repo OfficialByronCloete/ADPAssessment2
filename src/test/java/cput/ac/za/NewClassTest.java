@@ -17,7 +17,7 @@ public class NewClassTest {
     @Test
     public void testEquality(){
         NewClass n = new NewClass();
-        NewClass p = new NewCLass();
+        NewClass p = new NewClass();
         NewClass b = n;
 
         Assert.assertEquals(n, b);
